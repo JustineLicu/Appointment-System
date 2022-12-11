@@ -3,12 +3,16 @@
         <ul class="nav">
             <li class="nav-title">{{ trans('brackets/admin-ui::admin.sidebar.content') }}</li>
             <li class="nav-item"><a class="nav-link" href="{{ url('admin/services') }}"><i class="nav-icon icon-star"></i> {{ trans('admin.service.title') }}</a></li>
+           <li class="nav-item"><a class="nav-link" href="{{ url('admin/patients') }}"><i class="nav-icon icon-star"></i> {{ trans('admin.patient.title') }}</a></li>
+           <li class="nav-item"><a class="nav-link" href="{{ url('admin/appointments') }}"><i class="nav-icon icon-book-open"></i> {{ trans('admin.appointment.title') }}</a></li>
+           <li class="nav-item"><a class="nav-link" href="{{ url('admin/schedules') }}"><i class="nav-icon icon-flag"></i> {{ trans('admin.schedule.title') }}</a></li>
+           <li class="nav-item"><a class="nav-link" href="{{ url('admin/feedback') }}"><i class="nav-icon icon-puzzle"></i> {{ trans('admin.feedback.title') }}</a></li>
            {{-- Do not delete me :) I'm used for auto-generation menu items --}}
 
             <li class="nav-title">{{ trans('brackets/admin-ui::admin.sidebar.settings') }}</li>
             <li class="nav-item"><a class="nav-link" href="{{ url('admin/admin-users') }}"><i class="nav-icon icon-user"></i> {{ __('Manage access') }}</a></li>
-            <li class="nav-item"><a class="nav-link" href="{{ url('admin/translations') }}"><i class="nav-icon icon-location-pin"></i> {{ __('Translations') }}</a></li>
             {{-- Do not delete me :) I'm also used for auto-generation menu items --}}
+            {{-- <li class="nav-item"><a class="nav-link" href="{{ url('admin/translations') }}"><i class="nav-icon icon-location-pin"></i> {{ __('Translations') }}</a></li> --}}
             {{--<li class="nav-item"><a class="nav-link" href="{{ url('admin/configuration') }}"><i class="nav-icon icon-settings"></i> {{ __('Configuration') }}</a></li>--}}
         </ul>
     </nav>

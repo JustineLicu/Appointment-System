@@ -1,0 +1,4 @@
+# vendor\brackets\admin-ui\resources\views\admin\layout\master.blade.php => title
+# vendor\brackets\admin-ui\resources\lang\en\admin.php => page_title_suffix
+# resources\views\admin\layout\logo.blade.php => logo
+# vendor\brackets\admin-ui\resources\views\admin\partials\footer.blade.php => footer
